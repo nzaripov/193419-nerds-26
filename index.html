@@ -21,11 +21,10 @@
 						<button type="button">Корзина</button>
 					</li>
 				</ul>
-
 			</nav>
 		</header>
 		<main>
-			<h1>Дизайн-студия Нёрдс</h1>
+			<h1 class="visually-hidden">Дизайн-студия Нёрдс</h1>
 			<section>
 				<h2>Что мы можем</h2>
 				<ul>
@@ -33,25 +32,19 @@
 						<img src="img/web.jpg"  width="300" height="146" alt='Веб-сайт'>
 						<p>Веб-сайты</p>
 						<p>Мир никогда не будет прежним после того как увидит ваш сайт!<p>
-						<a href="#">
-							<img src="img/btn-web.jpg" width="160" height="50" alt='Заказать веб-сайт'>
-							Заказать</a>
+						<a href="#">Заказать</a>
 					</li>
 					<li>
 						<img src="img/mobile.jpg" width="300" height="146" alt='Приложения'>
 						<p>Приложения</p>
 						<p>Покорите топ-10 приложений в AppStore и Google Play</p>
-						<a href="#">
-								<img src="img/btn-mob.jpg"  width="160" height="50" alt='Заказать приложения'>
-							Заказать</a>
+						<a href="#">Заказать</a>
 					</li>
 					<li>
 						<img src="img/presentations.jpg" width="300" height="146" alt='Презентации'>
 						<p>Презентации</p>
 						<p>Вы даже не подозреваете, насколько вы изумительны!</p>
-						<a href="#">
-								<img src="img/btn-present.jpg"  width="160" height="50" alt='Заказать презентации'>
-							Заказать</a>
+						<a href="#">Заказать</a>
 					</li>
 				</ul>
 			</section>
@@ -71,6 +64,27 @@
 			<h2>Корзина</h2>
 			<button type="button">Закрыть</button>
 		</section>
-
+		<section>
+			<h2>Напишите нам</h2>
+			<form action="https://echo.htmlacademy.ru" method="POST">
+				<p>
+					<label>Ваше имя:  
+						<input type="text" name="sender-name" placeholder="Имя Фамилия">
+					</label>
+				</p>
+				<p>
+					<label>Ваш емайл: 
+						<input type="email" name="sender-email" placeholder="email@example.ru">
+					</label>
+				</p>
+				<p>
+					<label>Текст письма:
+							<textarea rows="10" cols="45" name="text" placeholder="В свободной форме"></textarea>
+					</label>
+				</p>
+				<button type="submit">Войти</button>
+			</form>
+			<button type="button">Закрыть</button>
+		</section>
 	</body>
 </html>
