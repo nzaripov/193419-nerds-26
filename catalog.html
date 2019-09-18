@@ -27,8 +27,8 @@
 		<main>
 			<h1>Магазин готовых шаблонов</h1>
 			<section>
-				<h2>Фильтр по шаблонам</h2>
-					<form id="checkbox" action="index.html">
+				<h2 class="visually-hidden">Фильтр по шаблонам</h2>
+					<form action="https://echo.htmlacademy.ru" method="GET">
 						<fieldset>
 							<legend>Сетка:</legend>
 							<input id="adaptive" type="radio" value="adaptive" name="grid" checked>
@@ -60,22 +60,50 @@
 							<label for="basket">Корзина</label>
 							<br>
 						</fieldset>
-                    <input type="submit" name="show" value="Показать">
+                    <button type="submit">Показать</button>
              </form>
 			</section>
 			<section>
-				<h2>Список шаблонов</h2>
+				<h2 class="visually-hidden">Список шаблонов</h2>
 				<ul>
-
 					<li>
 						<article>
 							<div>
-								<h3>Sedona</h3>
-								<p>Информационный портал для туристов</p>
+								<h3 class="visually-hidden">Шаблон Sedona</h3>
 								<a href="#">9 900 руб.</a>
 							</div>
 							<a href="#">
-								<img src="img/sedona.jpg" width="360" height='576' alt="Sedona">
+								<img src="img/sedona.jpg" width="360" height='576' alt="Шаблон Sedona">
+							</a>
+						</article>
+					</li>
+					<li>
+						<article>
+							<div>
+								<h3 class="visually-hidden">Шаблон Pink</h3>
+							</div>
+							<a href="#">
+								<img src="img/pink.jpg" width="360" height='576' alt="Шаблон Pink">
+							</a>
+						</article>
+					</li>
+					<li>
+						<article>
+							<div>
+								<h3 class="visually-hidden">Шаблон Barbershop "Borodinski"</h3>
+							</div>
+							<a href="#">
+								<img src="img/barbershop.jpg" width="360" height='576' alt="Шаблон Barbershop Borodinski">
+							</a>
+						</article>
+					</li>
+					<li>
+						<article>
+							<div>
+								<h3 class="visually-hidden">Шаблон Mishka</h3>
+							</div>
+							<a href="#">
+								<img src="img/mishka.jpg" width="360" height='576' alt="Шаблон Mishka">
 							</a>
 						</article>
 					</li>
@@ -83,11 +111,10 @@
 					<li>
 						<article>
 							<div>
-								<h3>Pink</h3>
-								<p>Взгляни на жизнь иначе</p>
+								<h3 class="visually-hidden">Шаблон А+</h3>
 							</div>
 							<a href="#">
-								<img src="img/pink.jpg" width="360" height='576' alt="Pink">
+								<img src="img/aplus.jpg" width="360" height='576' alt="Шаблон А+">
 							</a>
 						</article>
 					</li>
@@ -95,51 +122,13 @@
 					<li>
 						<article>
 							<div>
-								<h3>Borodinski</h3>
-								<p>Barbershop "Borodinski"</p>
+								<h3 class="visually-hidden">Шаблон Кваст</h3>
 							</div>
 							<a href="#">
-								<img src="img/barbershop.jpg" width="360" height='576'  alt="Borodinski">
+								<img src="img/kvast.jpg" width="360" height='576' alt="Шаблон Кваст">
 							</a>
 						</article>
 					</li>
-
-					<li>
-						<article>
-							<div>
-								<h3>Mishka</h3>
-								<p>Милые штучки ручной работы для дома</p>
-							</div>
-							<a href="#">
-								<img src="img/mishka.jpg" width="360" height='576'  alt="Mishka">
-							</a>
-						</article>
-					</li>
-
-					<li>
-						<article>
-							<div>
-								<h3>А+</h3>
-								<p>Учеба еще никогда не была такой интересной</p>
-							</div>
-							<a href="#">
-								<img src="img/aplus.jpg" width="360" height='576'  alt="А+">
-							</a>
-						</article>
-					</li>
-
-					<li>
-						<article>
-							<div>
-								<h3>Кваст</h3>
-								<p>Крафтовый квас всему голова</p>
-							</div>
-							<a href="#">
-								<img src="img/kvast.jpg" width="360" height='576'  alt="Кваст">
-							</a>
-						</article>
-					</li>
-
 				</ul>
 			</section>
 		</main>
@@ -156,6 +145,28 @@
 		</footer>
 		<section>
 			<h2>Корзина</h2>
+			<button type="button">Закрыть</button>
+		</section>
+		<section>
+			<h2>Напишите нам</h2>
+			<form action="https://echo.htmlacademy.ru" method="POST">
+				<p>
+					<label>Ваше имя:  
+						<input type="text" name="sender-name" placeholder="Имя Фамилия">
+					</label>
+				</p>
+				<p>
+					<label>Ваш емайл: 
+						<input type="email" name="sender-email" placeholder="email@example.ru">
+					</label>
+				</p>
+				<p>
+					<label>Текст письма:
+						<textarea rows="10" cols="45" name="text" placeholder="В свободной форме"></textarea>
+					</label>
+				</p>
+				<button type="submit">Войти</button>
+			</form>
 			<button type="button">Закрыть</button>
 		</section>
 	</body>
