@@ -3,58 +3,62 @@
 	<head>
 		<meta charset="utf-8">
 		<title>Дизайн-студия Нёрдс</title>
+		<link href="https://fonts.googleapis.com/css?family=Roboto:400,500,700&display=swap&subset=cyrillic" 
+		rel="stylesheet">		
+		<link href="css/normalize.css" rel="stylesheet">
+		<link href="css/style.css" rel="stylesheet">
 	</head>
 	<body>
 		<header>
-			<nav>
+			<nav class="main-navigation">
 				<a href="Index.html">
 					<img src="img/nerds-logo.svg" width="140" height="49" alt='Логотип дизайн-студии Нёрдс'>
 				</a>
-				<ul>
+				<ul class="site-navigation">
 					<li><a href="Index.html">Студия</a></li>
 					<li><a href="#">Клиенты</a></li>
 					<li><a href="catalog.html">Магазин</a></li>
 					<li><a href="#">Контакты</a></li>
 				</ul>
-				<ul>
+				<ul class="user-navigation">
 					<li>
-						<button type="button">Корзина</button>
+						<a href="#">Корзина</a>
 					</li>
 				</ul>
 			</nav>
 		</header>
 		<main>
 			<h1 class="visually-hidden">Дизайн-студия Нёрдс</h1>
-			<section>
-				<h2>Что мы можем</h2>
+			<section class="features">
+				<h2 class="visually-hidden">Что мы можем</h2>
 				<ul>
-					<li>
+					<li class="web-feature">
 						<img src="img/web.jpg"  width="300" height="146" alt='Веб-сайт'>
-						<p>Веб-сайты</p>
+						<p class="main-features">Веб-сайты</p>
 						<p>Мир никогда не будет прежним после того как увидит ваш сайт!<p>
 						<a href="#">Заказать</a>
 					</li>
-					<li>
+					<li class="mobile-feature">
 						<img src="img/mobile.jpg" width="300" height="146" alt='Приложения'>
-						<p>Приложения</p>
+						<p class="main-features">Приложения</p>
 						<p>Покорите топ-10 приложений в AppStore и Google Play</p>
 						<a href="#">Заказать</a>
 					</li>
-					<li>
+					<li class="presentation-feature">
 						<img src="img/presentations.jpg" width="300" height="146" alt='Презентации'>
-						<p>Презентации</p>
+						<p class="main-features">Презентации</p>
 						<p>Вы даже не подозреваете, насколько вы изумительны!</p>
 						<a href="#">Заказать</a>
 					</li>
 				</ul>
 			</section>
 		</main>
-		<footer>
-			<div>
+		<footer class="main-footer">
+			<div class="social-footer">
 				<ul>
-					<li><a href="#"><img style="background-color: black" src="img/vk-icon.svg" alt="ВКонтакте">ВКонтакте</a></li>
-					<li><a href="#"><img style="background-color: black" src="img/fb-icon.svg" alt="Фейсбук">Фейсбук</a></li>
-					<li><a href="#"><img style="background-color: black" src="img/insta-icon.svg" alt="Инстаграм">Инстаграм</a></li>
+					<li><a href="#">ВКонтакте</a></li>
+					<li><a href="#">Фейсбук</a></li>
+					<li><a href="#">Инстаграм</a></li>
 				</ul>
 				<p><strong>Давайте дружить, это выгодно!</strong>
 				<span>Скидка 10% для друзей из социальных сетей.</span></p>
@@ -64,17 +68,17 @@
 			<h2>Корзина</h2>
 			<button type="button">Закрыть</button>
 		</section>
-		<section>
+		<section class="write-us">
 			<h2>Напишите нам</h2>
 			<form action="https://echo.htmlacademy.ru" method="POST">
 				<p>
 					<label>Ваше имя:  
-						<input type="text" name="sender-name" placeholder="Имя Фамилия">
+						<input type="text" name="sender-name" placeholder="Имя Фамилия" required>
 					</label>
 				</p>
 				<p>
 					<label>Ваш емайл: 
-						<input type="email" name="sender-email" placeholder="email@example.ru">
+						<input type="email" name="sender-email" placeholder="email@example.ru" required>
 					</label>
 				</p>
 				<p>
@@ -82,7 +86,7 @@
 							<textarea rows="10" cols="45" name="text" placeholder="В свободной форме"></textarea>
 					</label>
 				</p>
-				<button type="submit">Войти</button>
+				<button type="submit">Отправить</button>
 			</form>
 			<button type="button">Закрыть</button>
 		</section>

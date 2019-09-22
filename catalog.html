@@ -3,30 +3,33 @@
 	<head>
 		<meta charset="utf-8">
 		<title>Магазин дизайн-студии Нёрдс</title>
+		<link href="https://fonts.googleapis.com/css?family=Roboto:400,500,700&display=swap&subset=cyrillic" 
+		rel="stylesheet">		
+		<link href="css/normalize.css" rel="stylesheet">
+		<link href="css/style.css" rel="stylesheet">	
 	</head>
 	<body>
 		<header>
-			<nav>
+			<nav class="main-navigation">
 				<a href="Index.html">
 					<img src="img/nerds-logo.svg" width="140" height="49" alt='Логотип дизайн-студии Нёрдс'>
 				</a>
-				<ul>
+				<ul class="site-navigation">
 					<li><a href="Index.html">Студия</a></li>
 					<li><a href="#">Клиенты</a></li>
 					<li><a href="catalog.html">Магазин</a></li>
 					<li><a href="#">Контакты</a></li>
 				</ul>
-				<ul>
+				<ul class="user-navigation">
 					<li>
-						<button type="button">Корзина</button>
+						<a href="#">Корзина</a>
 					</li>
 				</ul>
-
 			</nav>
 		</header>
-		<main>
+		<main class="catalog-page">
 			<h1>Магазин готовых шаблонов</h1>
-			<section>
+			<section class="filters">
 				<h2 class="visually-hidden">Фильтр по шаблонам</h2>
 					<form action="https://echo.htmlacademy.ru" method="GET">
 						<fieldset>
@@ -63,7 +66,7 @@
                     <button type="submit">Показать</button>
              </form>
 			</section>
-			<section>
+			<section class="list-templates">
 				<h2 class="visually-hidden">Список шаблонов</h2>
 				<ul>
 					<li>
@@ -132,22 +135,22 @@
 				</ul>
 			</section>
 		</main>
-		<footer>
-			<div>
+		<footer class="main-footer">
+			<div class="social-footer">
 				<ul>
-					<li><a href="#"><img style="background-color: black" src="img/vk-icon.svg" alt="ВКонтакте">ВКонтакте</a></li>
-					<li><a href="#"><img style="background-color: black" src="img/fb-icon.svg" alt="Фейсбук">Фейсбук</a></li>
-					<li><a href="#"><img style="background-color: black" src="img/insta-icon.svg" alt="Инстаграм">Инстаграм</a></li>
+					<li><a href="#">ВКонтакте</a></li>
+					<li><a href="#">Фейсбук</a></li>
+					<li><a href="#">Инстаграм</a></li>
 				</ul>
-				<p>Давайте дружить, это выгодно!</p>
-				<p>Скидка 10% для друзей из социальных сетей.</p>
+				<p><strong>Давайте дружить, это выгодно!</strong>
+				<span>Скидка 10% для друзей из социальных сетей.</span></p>
 			</div>
 		</footer>
 		<section>
 			<h2>Корзина</h2>
 			<button type="button">Закрыть</button>
 		</section>
-		<section>
+		<section class="write-us">
 			<h2>Напишите нам</h2>
 			<form action="https://echo.htmlacademy.ru" method="POST">
 				<p>
@@ -165,7 +168,7 @@
 						<textarea rows="10" cols="45" name="text" placeholder="В свободной форме"></textarea>
 					</label>
 				</p>
-				<button type="submit">Войти</button>
+				<button type="submit">Отправить</button>
 			</form>
 			<button type="button">Закрыть</button>
 		</section>
