@@ -9,26 +9,28 @@
 		<link href="css/style.css" rel="stylesheet">	
 	</head>
 	<body>
-		<header>
-			<nav class="main-navigation">
-				<a href="Index.html">
-					<img src="img/nerds-logo.svg" width="140" height="49" alt='Логотип дизайн-студии Нёрдс'>
-				</a>
-				<ul class="site-navigation">
-					<li><a href="Index.html">Студия</a></li>
-					<li><a href="#">Клиенты</a></li>
-					<li><a href="catalog.html">Магазин</a></li>
-					<li><a href="#">Контакты</a></li>
-				</ul>
-				<ul class="user-navigation">
-					<li>
-						<a href="#">Корзина</a>
-					</li>
-				</ul>
-			</nav>
+		<header class="catalog-header">
+			<h1>Магазин готовых шаблонов</h1>
+			<div class="navigation-wrapper">
+				<nav class="main-navigation">
+					<a class="main-header-logo" href="Index.html">
+						<img src="img/nerds-logo.svg" width="140" height="49" alt='Логотип дизайн-студии Нёрдс'>
+					</a>
+					<ul class="site-navigation">
+						<li><a href="Index.html">Студия</a></li>
+						<li><a href="#">Клиенты</a></li>
+						<li><a href="catalog.html">Магазин</a></li>
+						<li><a href="#">Контакты</a></li>
+					</ul>
+					<ul class="user-navigation">
+						<li>
+							<a href="#">Корзина</a>
+						</li>
+					</ul>
+				</nav>
+			</div>
 		</header>
 		<main class="catalog-page">
-			<h1>Магазин готовых шаблонов</h1>
 			<section class="filters">
 				<h2 class="visually-hidden">Фильтр по шаблонам</h2>
 					<form action="https://echo.htmlacademy.ru" method="GET">
@@ -68,7 +70,7 @@
 			</section>
 			<section class="list-templates">
 				<h2 class="visually-hidden">Список шаблонов</h2>
-				<ul>
+				<ul class="templates-item">
 					<li>
 						<article>
 							<div>
@@ -134,10 +136,10 @@
 					</li>
 				</ul>
 			</section>
-		</main>
+		</main>		
 		<footer class="main-footer">
 			<div class="social-footer">
-				<ul>
+				<ul class="social-item">
 					<li><a href="#">ВКонтакте</a></li>
 					<li><a href="#">Фейсбук</a></li>
 					<li><a href="#">Инстаграм</a></li>

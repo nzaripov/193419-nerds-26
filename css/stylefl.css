@@ -1,0 +1,36 @@
+.main-header {
+	border: 1px solid red;
+}
+.main-navigation {
+	border: 2px solid green;
+}
+.main-header-logo {
+	border: 2px solid yellow;
+}
+.site-navigation {
+	border: 1px solid yellow;
+	height: 50px;
+}
+.user-navigation {
+	border: 1px solid yellow;
+	height: 50px;
+}
+.features {
+	border: 1px solid red;
+}
+.features-list {
+	border: 1px solid green;
+}
+.main-footer {
+	border: 1px solid red;
+}
+/*----------------------------------------*/
+.catalog-header {
+	border: 1px solid red;
+}
+.navigation-wrapper {
+	border: 1px solid blue;
+}
+.list-templates {
+	border: 1px solid blue;
+}
