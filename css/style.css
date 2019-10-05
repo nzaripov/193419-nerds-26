@@ -253,15 +253,12 @@ a {
 	justify-content: space-between;
 	align-items: center;
 	background-color: transparent;/**/
-	/*margin-top: 49px;*/
 	padding-top: 49px;
 }
 .logo {
 	display: inline-block;
 	width:160px;
 	height: 65px;
-/*	margin-top: 49px;
-	margin-left: 140px;*/
 }
 .main-navigation a:hover img {
 	opacity: 0.8;
