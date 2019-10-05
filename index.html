@@ -7,12 +7,14 @@
 		rel="stylesheet">		
 		<link href="css/normalize.css" rel="stylesheet">
 		<link href="css/style.css" rel="stylesheet">
+		<!--<link href="css/stylefl.css" rel="stylesheet">-->
+
 	</head>
 	<body>
 		<header class="main-header">
-			<div class="navigation-wrapper">
+			<div class="wrapper">
 				<nav class="main-navigation">
-					<a class="main-header-logo" href="Index.html">
+					<a class="logo" href="Index.html">
 						<img src="img/nerds-logo.svg" width="140" height="49" alt='Логотип дизайн-студии Нёрдс'>
 					</a>
 					<ul class="site-navigation">
@@ -28,12 +30,15 @@
 					</ul>
 				</nav>
 			</div>
-		</header>	
+		</header>
+		
 		<main>
 			<h1 class="visually-hidden">Дизайн-студия Нёрдс</h1>
-			<section class="features">
+			<div class="wrapper">
+			<section>
 				<h2 class="visually-hidden">Что мы можем</h2>
-				<ul class="features-list">
+				<!-- class="features-list"> -->
+				<ul class="features">
 					<li class="web-feature features-item">
 						<img src="img/web.jpg"  width="300" height="146" alt='Веб-сайт'>
 						<p class="main-features features-item">Веб-сайты</p>
@@ -54,16 +59,20 @@
 					</li>
 				</ul>
 			</section>
-		</main>	
+			</div>
+		</main>
+		
 		<footer class="main-footer">
-			<div class="social-footer">
-				<ul class="social-item">
-					<li><a href="#">ВКонтакте</a></li>
-					<li><a href="#">Фейсбук</a></li>
-					<li><a href="#">Инстаграм</a></li>
-				</ul>
-				<p><strong>Давайте дружить, это выгодно!</strong>
-				<span>Скидка 10% для друзей из социальных сетей.</span></p>
+			<div class=wrapper>
+				<div class="social-footer">
+					<ul class="social-item">
+						<li><a href="#">ВКонтакте</a></li>
+						<li><a href="#">Фейсбук</a></li>
+						<li><a href="#">Инстаграм</a></li>
+					</ul>
+					<p><strong>Давайте дружить, это выгодно!</strong>
+					<span>Скидка 10% для друзей из социальных сетей.</span></p>
+				</div>
 			</div>
 		</footer>
 
@@ -93,6 +102,6 @@
 			</form>
 			<button type="button">Закрыть</button>
 		</section>
-	
+<!---->	
 	</body>
 </html>

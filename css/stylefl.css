@@ -1,9 +1,14 @@
-.main-header {
+.wrapper {
 	border: 1px solid red;
 }
 .main-navigation {
 	border: 2px solid green;
 }
+/*
+.main-header {
+	border: 1px solid red;
+}
+
 .main-header-logo {
 	border: 2px solid yellow;
 }
@@ -34,3 +39,4 @@
 .list-templates {
 	border: 1px solid blue;
 }
+*/

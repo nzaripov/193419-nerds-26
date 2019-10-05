@@ -7,147 +7,163 @@
 		rel="stylesheet">		
 		<link href="css/normalize.css" rel="stylesheet">
 		<link href="css/style.css" rel="stylesheet">	
+		<!--<link href="css/stylefl.css" rel="stylesheet">-->
 	</head>
 	<body>
 		<header class="catalog-header">
-			<h1>Магазин готовых шаблонов</h1>
-			<div class="navigation-wrapper">
-				<nav class="main-navigation">
-					<a class="main-header-logo" href="Index.html">
-						<img src="img/nerds-logo.svg" width="140" height="49" alt='Логотип дизайн-студии Нёрдс'>
-					</a>
-					<ul class="site-navigation">
-						<li><a href="Index.html">Студия</a></li>
-						<li><a href="#">Клиенты</a></li>
-						<li><a href="catalog.html">Магазин</a></li>
-						<li><a href="#">Контакты</a></li>
-					</ul>
-					<ul class="user-navigation">
-						<li>
-							<a href="#">Корзина</a>
-						</li>
-					</ul>
-				</nav>
+			<div class="wrapper">
+				<div class="order-wrapper">
+					<h1>Магазин готовых шаблонов</h1>
+					<div class="navigation-wrapper">
+						<nav class="main-navigation">
+							<a class="logo" href="Index.html">
+								<img src="img/nerds-logo.svg" width="140" height="49" alt='Логотип дизайн-студии Нёрдс'>
+							</a>
+							<ul class="site-navigation">
+								<li><a href="Index.html">Студия</a></li>
+								<li><a href="#">Клиенты</a></li>
+								<li><a href="catalog.html">Магазин</a></li>
+								<li><a href="#">Контакты</a></li>
+							</ul>
+							<ul class="user-navigation">
+								<li>
+									<a href="#">Корзина</a>
+								</li>
+							</ul>
+						</nav>
+					</div>
+				</div>
 			</div>
 		</header>
+
 		<main class="catalog-page">
-			<section class="filters">
-				<h2 class="visually-hidden">Фильтр по шаблонам</h2>
-					<form action="https://echo.htmlacademy.ru" method="GET">
-						<fieldset>
-							<legend>Сетка:</legend>
-							<input id="adaptive" type="radio" value="adaptive" name="grid" checked>
-							<label for="adaptive">Адаптивная</label>
-							<br>
-							<input id="fixed" type="radio" value="fixed" name="grid">
-							<label for="fixed">Фиксированная</label>
-							<br>
-							<input id="rubber" type="radio" value="rubber" name="grid">
-							<label for="rubber">Резиновая</label>
-							<br>
-						</fieldset>
+			<div class=wrapper>
+				<div class="page-wrapper">
+					<section class="filters">
+						<h2 class="visually-hidden">Фильтр по шаблонам</h2>
+							<form action="https://echo.htmlacademy.ru" method="GET">
+								<fieldset>
+									<legend>Сетка:</legend>
+									<input id="adaptive" type="radio" value="adaptive" name="grid" checked>
+									<label for="adaptive">Адаптивная</label>
+									<br>
+									<input id="fixed" type="radio" value="fixed" name="grid">
+									<label for="fixed">Фиксированная</label>
+									<br>
+									<input id="rubber" type="radio" value="rubber" name="grid">
+									<label for="rubber">Резиновая</label>
+									<br>
+								</fieldset>
 
-						<fieldset>
-							<legend>Особенности:</legend>
-							<input id="slider" type="checkbox" value="slider" name="propeties" checked>
-							<label for="slider">Слайдер</label>
-							<br>
-							<input id="advantages" type="checkbox" value="advantages" name="propeties">
-							<label for="advantages">Преимущества</label>
-							<br>
-							<input id="news" type="checkbox" value="news" name="propeties" checked>
-							<label for="news">Новости</label>
-							<br>
-							<input id="gallery" type="checkbox" value="gallery" name="propeties">
-							<label for="gallery">Галеря</label>
-							<br>
-							<input id="basket" type="checkbox" value="basket" name="propeties">
-							<label for="basket">Корзина</label>
-							<br>
-						</fieldset>
-                    <button type="submit">Показать</button>
-             </form>
-			</section>
-			<section class="list-templates">
-				<h2 class="visually-hidden">Список шаблонов</h2>
-				<ul class="templates-item">
-					<li>
-						<article>
-							<div>
-								<h3 class="visually-hidden">Шаблон Sedona</h3>
-								<a href="#">9 900 руб.</a>
-							</div>
-							<a href="#">
-								<img src="img/sedona.jpg" width="360" height='576' alt="Шаблон Sedona">
-							</a>
-						</article>
-					</li>
-					<li>
-						<article>
-							<div>
-								<h3 class="visually-hidden">Шаблон Pink</h3>
-							</div>
-							<a href="#">
-								<img src="img/pink.jpg" width="360" height='576' alt="Шаблон Pink">
-							</a>
-						</article>
-					</li>
-					<li>
-						<article>
-							<div>
-								<h3 class="visually-hidden">Шаблон Barbershop "Borodinski"</h3>
-							</div>
-							<a href="#">
-								<img src="img/barbershop.jpg" width="360" height='576' alt="Шаблон Barbershop Borodinski">
-							</a>
-						</article>
-					</li>
-					<li>
-						<article>
-							<div>
-								<h3 class="visually-hidden">Шаблон Mishka</h3>
-							</div>
-							<a href="#">
-								<img src="img/mishka.jpg" width="360" height='576' alt="Шаблон Mishka">
-							</a>
-						</article>
-					</li>
+								<fieldset>
+									<legend>Особенности:</legend>
+									<input id="slider" type="checkbox" value="slider" name="propeties" checked>
+									<label for="slider">Слайдер</label>
+									<br>
+									<input id="advantages" type="checkbox" value="advantages" name="propeties">
+									<label for="advantages">Преимущества</label>
+									<br>
+									<input id="news" type="checkbox" value="news" name="propeties" checked>
+									<label for="news">Новости</label>
+									<br>
+									<input id="gallery" type="checkbox" value="gallery" name="propeties">
+									<label for="gallery">Галеря</label>
+									<br>
+									<input id="basket" type="checkbox" value="basket" name="propeties">
+									<label for="basket">Корзина</label>
+									<br>
+								</fieldset>
+							<button type="submit">Показать</button>
+					 </form>
+					</section>
+					
+					<section class="list-templates">
+					<h2 class="visually-hidden">Список шаблонов</h2>
+					<ul class="templates-item">
+						<li>
+							<article>
+								<a href="#">
+									<img src="img/sedona.jpg" width="360" height='576' alt="Шаблон Sedona">
+								</a>
+								<div>
+									<h3 class="visually-hidden">Шаблон Sedona</h3>
+									<a href="#">9 900 руб.</a>
+								</div>
+								
+							</article>
+						</li>
+						<li>
+							<article>
+								<div>
+									<h3 class="visually-hidden">Шаблон Pink</h3>
+								</div>
+								<a href="#">
+									<img src="img/pink.jpg" width="360" height='576' alt="Шаблон Pink">
+								</a>
+							</article>
+						</li>
+						<li>
+							<article>
+								<div>
+									<h3 class="visually-hidden">Шаблон Barbershop "Borodinski"</h3>
+								</div>
+								<a href="#">
+									<img src="img/barbershop.jpg" width="360" height='576' alt="Шаблон Barbershop Borodinski">
+								</a>
+							</article>
+						</li>
+						<li>
+							<article>
+								<div>
+									<h3 class="visually-hidden">Шаблон Mishka</h3>
+								</div>
+								<a href="#">
+									<img src="img/mishka.jpg" width="360" height='576' alt="Шаблон Mishka">
+								</a>
+							</article>
+						</li>
 
-					<li>
-						<article>
-							<div>
-								<h3 class="visually-hidden">Шаблон А+</h3>
-							</div>
-							<a href="#">
-								<img src="img/aplus.jpg" width="360" height='576' alt="Шаблон А+">
-							</a>
-						</article>
-					</li>
+						<li>
+							<article>
+								<div>
+									<h3 class="visually-hidden">Шаблон А+</h3>
+								</div>
+								<a href="#">
+									<img src="img/aplus.jpg" width="360" height='576' alt="Шаблон А+">
+								</a>
+							</article>
+						</li>
 
-					<li>
-						<article>
-							<div>
-								<h3 class="visually-hidden">Шаблон Кваст</h3>
-							</div>
-							<a href="#">
-								<img src="img/kvast.jpg" width="360" height='576' alt="Шаблон Кваст">
-							</a>
-						</article>
-					</li>
-				</ul>
-			</section>
-		</main>		
+						<li>
+							<article>
+								<div>
+									<h3 class="visually-hidden">Шаблон Кваст</h3>
+								</div>
+								<a href="#">
+									<img src="img/kvast.jpg" width="360" height='576' alt="Шаблон Кваст">
+								</a>
+							</article>
+						</li>
+					</ul>
+				</section>
+				</div>
+			</div>
+		</main>
+		
 		<footer class="main-footer">
-			<div class="social-footer">
-				<ul class="social-item">
-					<li><a href="#">ВКонтакте</a></li>
-					<li><a href="#">Фейсбук</a></li>
-					<li><a href="#">Инстаграм</a></li>
-				</ul>
-				<p><strong>Давайте дружить, это выгодно!</strong>
-				<span>Скидка 10% для друзей из социальных сетей.</span></p>
+			<div class=wrapper>
+				<div class="social-footer">
+					<ul class="social-item">
+						<li><a href="#">ВКонтакте</a></li>
+						<li><a href="#">Фейсбук</a></li>
+						<li><a href="#">Инстаграм</a></li>
+					</ul>
+					<p><strong>Давайте дружить, это выгодно!</strong>
+					<span>Скидка 10% для друзей из социальных сетей.</span></p>
+				</div>
 			</div>
 		</footer>
+
 		<section>
 			<h2>Корзина</h2>
 			<button type="button">Закрыть</button>
