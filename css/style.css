@@ -4,7 +4,6 @@ html {
 *, *::before, *::after { 
 	box-sizing: inherit; 
 }
-
 body {
   min-width: 1200px;
   width: 100%;
@@ -34,7 +33,6 @@ a {
 	margin: 0 auto;
 	overflow: visible;
 }
-
 .main-navigation {
 	font-size: 16px;
 	line-height: 30px;
@@ -437,7 +435,6 @@ a {
 	background-image: url("../img/filter-button.svg");
 	background-repeat: no-repeat;
 	background-position: 0 0;
-/**/	
 }
 .round-max {
 	position: absolute;
@@ -777,8 +774,6 @@ a {
 	flex-wrap: wrap;
 	margin: 0;
 	padding: 0;
-	/*
-	background-color: rgba(237,132,33,0.2);*/
 }
 .sorting-item a {
 	font-weight: 400;
@@ -894,7 +889,6 @@ a {
 	border: 2px solid transparent;
 	text-transform: uppercase;
 }
-
 .item-price .button:hover {
 	background: #e74246;
 }
