@@ -16,7 +16,7 @@
 						<img src="img/nerds-logo.svg" width="160" height="65" alt='Логотип дизайн-студии Нёрдс'>
 					</a>
 					<ul class="site-navigation">
-						<li><a href="Index.html">Студия</a></li>
+						<li><a class="link-active" href="Index.html">Студия</a></li>
 						<li><a href="#">Клиенты</a></li>
 						<li><a href="catalog.html">Магазин</a></li>
 						<li><a href="#">Контакты</a></li>
@@ -61,6 +61,14 @@
 						</li>
 					</ul>	
 				</div>	
+				<input class="visually-hidden" type="radio" id="btn-1" name="toggle" checked>
+				<input class="visually-hidden" type="radio" id="btn-2" name="toggle">
+				<input class="visually-hidden" type="radio" id="btn-3" name="toggle">
+				<div class="slider-controls">
+					<label for="btn-1"></label>
+					<label for="btn-2"></label>
+					<label for="btn-3"></label>
+				</div>
 			</section>	
 		
 			<h1 class="visually-hidden">Дизайн-студия Нёрдс</h1>
@@ -71,10 +79,9 @@
 							<li class="web-feature">
 								<img src="img/web.jpg"  width="300" height="146" alt='Веб-сайт'>
 								<p class="main-features">Веб-сайты</p>
-								<p class="main-descr">Мир никогда не будет прежним после того как увидит ваш сайт!</p>
-								
+								<p class="main-descr">Мир никогда не будет прежним после того как увидит ваш сайт!</p>								
 								<div>
-									<a class="button" href="#">Заказать</a>
+									<a class="button" href="catalog.html">Заказать</a>
 								</div>
 							</li>
 							<li class="mobile-feature">
@@ -195,7 +202,7 @@
 				</div>
 				<div class="contacts-map">
 				<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1998.6036253056363!2d30.320853351165148!3d59.938719168965804!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4696310fca145cc1%3A0x42b32648d8238007!2z0JHQvtC70YzRiNCw0Y8g0JrQvtC90Y7RiNC10L3QvdCw0Y8g0YPQuy4sIDE5LzgsINCh0LDQvdC60YIt0J_QtdGC0LXRgNCx0YPRgNCzLCAxOTExODY!5e0!3m2!1sru!2sru!4v1571333462857!5m2!1sru!2sru" 
-				width="1200" height="412" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+				width="100%" height="412" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
 				</div>
 			</section>
 
