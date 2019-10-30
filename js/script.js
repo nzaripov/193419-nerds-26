@@ -4,7 +4,6 @@ var close=document.querySelector(".button-close");
 var input_name=popup.querySelector("[name=name]");
 var input_email=popup.querySelector("[name=email]");
 var form = popup.querySelector(".popup-form");
-
 var isStorageSupport = true;
 var loginStorage = "";
 var emailStorage = "";
@@ -54,6 +53,7 @@ form.addEventListener("submit", function (evt) {
 		}
 	}
 });
+
 window.addEventListener("keydown", function(evt) {
 	if(evt.keyCode===27){
 		if(popup.classList.contains("write-show")) {
