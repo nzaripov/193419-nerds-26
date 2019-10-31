@@ -214,7 +214,7 @@ a {
 .contacts-telephon {
 	color: #666666;
 }
-/* Контактная информация конец*/
+/*  Контактная информация конец  */
 .social-footer ul {
 	list-style: none;
 }
@@ -385,8 +385,8 @@ a {
 	background: #ffffff;
 	border: solid 2px #e74246;
 }
-/*  Popup Напишите нам  (конец)*/
-/* Страница каталога*/
+/*  Popup Напишите нам  (конец) */
+/*  Страница каталога */
 .filters {
 	width: 260px;
 }
@@ -507,7 +507,7 @@ a {
 	background-color: #eeeeee;
 	border: none;
 }
-/*  Сетки   */
+/*  Сетки  */
 .grid legend {
 	font-size: 18px;
 	font-weight: 700;
@@ -665,7 +665,7 @@ a {
 	clip: rect(0 0 0 0);
 	overflow: hidden;	
 }
-/* ----------------- Сеточные стили ----------------------------- */
+/*  Сеточные стили  */
 .main-navigation {
 	display: flex;
 	flex-direction: row;
@@ -753,7 +753,6 @@ a:active img {
 	cursor: pointer;	
 	background: #e1e1e1;
 }
-/*---------------------------------------------------*/
 .catalog-titul {
 	margin: 78px 0 105px;
 	font-weight: 500;
@@ -896,7 +895,7 @@ a:active img {
 	border: 2px solid transparent;
 	text-transform: uppercase;
 }
-/* Стили секции partners (начало) */
+/*  Стили секции partners (начало) */
 .partners {
 	margin: 0;
 	padding: 0;
@@ -955,7 +954,7 @@ a:active img {
 .partner:active {
 	opacity: 0.1;
 }
-/* Стили секции .main-aboutus*/
+/*  Стили секции .main-aboutus  */
 .about-us {
 	display: flex;
 	justify-content: space-between;
@@ -1127,4 +1126,4 @@ a:active img {
 #btn-3:checked ~ .slider-controls label[for="btn-3"] {
 	background-color: #666666;
 }
-/*Секции slider (конец) */
+/*  Секции slider (конец) */
