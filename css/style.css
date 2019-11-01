@@ -15,6 +15,7 @@ body {
 	font-weight: 400;
 	color: #000000;
 	background-color: #ffffff;
+	/*background: white url("c:/temp/nerds-catalog.jpg") no-repeat top center;*/
 }
 a {
 	text-decoration: none;
@@ -556,6 +557,9 @@ a {
 .radio-input:checked + .radio-label:hover::before {
 	opacity: 1;
 }
+.radio-input:focus+.radio-label:before{
+	opacity: 1;
+}
 /*    Особенности:   */
 .checkbox-label {
 	position: relative;
@@ -594,6 +598,9 @@ a {
 	opacity:0.4;
 }
 .checkbox-input:checked + .checkbox-label:hover::before {
+	opacity: 1;
+}
+.checkbox-input:focus + .checkbox-label:before {
 	opacity: 1;
 }
 .filters-button {
@@ -839,11 +846,12 @@ a:active img {
 	opacity: 0.12;
 }
 .templates-item:hover::before,
- .templates-item:focus::before {
+.templates-item:focus::before {
 	opacity: 1;
 }
+
 .catalog-page {
-	padding-top: 60px;
+	padding-top: 57px;
 }
 .item-price {
 	position: absolute;
@@ -1046,7 +1054,6 @@ a:active img {
 	line-height: 1.13;
 	color: #283136;
 }
-/* ----------------studio (конец) */
 /*Секции slider (начало) */
 .slider {
 	position: relative;
