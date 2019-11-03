@@ -46,6 +46,7 @@ a {
 .site-navigation a,
 .user-navigation a {
 	display: block;
+	padding-bottom: 3px;
 	color: #000000;
 }
 .site-navigation a:hover,
@@ -68,13 +69,16 @@ a {
 	list-style: none;
 }
 .main-descr {
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 24px;
 	margin: 0 50px 0 0;
 }
 .button {
 	display: block;
 	width: 160px;
 	height: 50px;
-	margin: 36px 0 0 0;
+	margin: 31px 0 0 0;
 	padding: 15px 30px;
 	text-transform: uppercase;
 	text-align: center;
@@ -89,7 +93,7 @@ a {
 	line-height: 30px;
 	text-transform: uppercase;
 	color: #000000;
-	margin: 22px 50px 23px 0;
+	margin: 22px 50px 18px 0;
 }
 .web-feature,
 .mobile-feature,
@@ -111,6 +115,9 @@ a {
 	margin: 0;
 	background-color: #eeeeee;
 }
+.pingfoo {
+	margin-bottom: 79px;
+}
 .web-feature a,
 .slider a,
 .contact-write a,
@@ -130,7 +137,8 @@ a {
 .price-button a:active {
 	background-color: #d7373b;
 	box-shadow: inset 0 3px 0 0 rgba(0, 1, 1, 0.1);
-}	
+}
+	
 .mobile-feature a {
 	color: #ffffff;
 	background-color: #00ca74;
@@ -156,7 +164,7 @@ a {
 .main-footer {
 	color: #000000;
 	background-color: #ffffff;
-	margin-top:60px;
+	margin-top: 0;
 }
 /* Контактная информация Начало*/
 .contacts {
@@ -181,7 +189,7 @@ a {
 }
 .contacts-information {
 	position: absolute;
-	top: 50px;
+	top: 52px;
 	z-index: 2;
 	width: 320px;
 	padding: 0;
@@ -220,9 +228,9 @@ a {
 	list-style: none;
 }
 .social-footer p {
-	margin: 0;
-	padding: 0;
-	margin-top: 0px;
+	/*margin: 0;
+	padding: 0;*/
+	margin-top: 39px;
 	margin-left: 138px;
 	font-size: 36px;
 	font-weight: 700;
@@ -396,13 +404,13 @@ a {
 }
 .filters .price {
 	margin: 0;
-	margin-bottom: 52px;
+	margin-bottom: 54px;
 	padding: 0;
 	border: none;
 }
 .filters .grid {
 	margin: 0;
-	margin-bottom: 25px;
+	margin-bottom: 27px;
 	padding: 0;
 	border: none;
 }
@@ -418,11 +426,10 @@ a {
 }
 .box {
 	position: relative;
-	height: 41px;
-	margin-bottom: 10px;
-	padding-top: 39px;
+	margin-bottom: 14px;
+	padding-top: 40px;
 	padding-right: 20px;
-	padding-bottom: 39px;
+	padding-bottom: 40px;
 	padding-left: 20px;
 	background-color: #f1f1f1;
 	border-radius: 5px;
@@ -431,16 +438,16 @@ a {
 	position: absolute;
 	width: 220px;
 	height: 2px;
-	top: 35px;
-	left: 15px;
+	top: 39px;
+	left: 17px;
 	background: #d7dcde;
 }
 .line2 {
 	position: absolute;
 	width: 60%;
 	height: 2px;
-	top: 35px;
-	left: 15px;
+	top: 39px;
+	left: 17px;
 	background: #00ca74;
 	cursor: pointer;
 }
@@ -448,8 +455,8 @@ a {
 	position: absolute;
 	width: 20px;
 	height: 23px;
-	top: 25px;
-	left: 15px;
+	top: 29px;
+	left: 17px;
 	background-image: url("../img/filter-button.svg");
 	background-repeat: no-repeat;
 	background-position: 0 0;
@@ -458,7 +465,7 @@ a {
 	position: absolute;
 	width: 20px;
 	height: 23px;
-	top: 25px;
+	top: 29px;
 	right: 80px;
 	background-image: url("../img/filter-button.svg");
 	background-repeat: no-repeat;
@@ -476,7 +483,7 @@ a {
 .range-price input {
 	width: 80px;
 	margin-left: 10px;
-	padding: 12px 16px;
+	padding: 10px 16px;
 	font-size: 16px;
 	text-align: center;
 	background: #f1f1f1;
@@ -490,7 +497,8 @@ a {
 	font-size: 18px;
 	font-weight: 700;
 	line-height: 30px;
-	margin-bottom: 50px;
+	margin-top: 5px;
+	margin-bottom: 48px;
 }
 .filters label {
 	font-size: 16px;
@@ -499,10 +507,12 @@ a {
 	color: #283136;
 }
 .filters button {
+	margin-top: 3px;
 	font-size: 16px;
 	font-weight: 500;
 	line-height: 18px;
 	text-align: center;
+	text-transform: uppercase;
 	vertical-align: middle;
 	color: #000000;
 	background-color: #eeeeee;
@@ -734,7 +744,7 @@ a:active img {
 	flex-direction: row;
 	flex-wrap: wrap;	
 	align-items: center;	
-	margin-top: 50px;
+	margin-top: 29px;
 	min-height: 160px;
 }
 .social-list {	
@@ -761,7 +771,7 @@ a:active img {
 	background: #e1e1e1;
 }
 .catalog-titul {
-	margin: 78px 0 105px;
+	margin: 78px 0 107px;
 	font-weight: 500;
 	font-size: 55px;
 	line-height: 1;
@@ -778,7 +788,7 @@ a:active img {
 	justify-content: space-between;
 	flex-wrap: wrap;
 	text-transform: uppercase;
-	margin-bottom: 50px;
+	margin-bottom: 53px;
 }
 .sorting-group {
 	margin: 0;
@@ -833,7 +843,7 @@ a:active img {
 .templates-item {
 	position: relative;
 	margin-top: 40px;
-	margin-bottom: 35px;
+	margin-bottom: 33px;
 	padding: 0;
 	background-color: red;
 }
@@ -842,7 +852,7 @@ a:active img {
 	content: url(../img/browser.svg);
 	top:0;
 	left:0;
-	margin-top: -40px;
+	margin-top: -39px;
 	opacity: 0.12;
 }
 .templates-item:hover::before,
@@ -851,7 +861,8 @@ a:active img {
 }
 
 .catalog-page {
-	padding-top: 57px;
+	padding-top: 55px;
+	margin-bottom: 61px;
 }
 .item-price {
 	position: absolute;
@@ -908,7 +919,7 @@ a:active img {
 	margin: 0;
 	padding: 0;
 	padding-top: 45px;
-	padding-bottom: 39px;
+	padding-bottom: 37px;
 }
 .partners-list {
 	display: flex;
@@ -1048,7 +1059,7 @@ a:active img {
 }
 .accuracy-item span {
 	display: block;
-	margin-top: 35px;
+	margin-top: 31px;
 	font-weight: normal;
 	font-size: 16px;
 	line-height: 1.13;
@@ -1068,7 +1079,7 @@ a:active img {
 }
 .slider-item {
 	display: none;
-	padding: 75px 0 80px 0;
+	padding: 76px 0 80px 0;
 	min-height: 413px;
 }
 .slider-first {
