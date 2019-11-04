@@ -847,6 +847,7 @@ a:active img {
 }
 .templates-item {
 	position: relative;
+	flex-basis: 360px;
 	margin-top: 40px;
 	margin-bottom: 33px;
 	padding: 0;
@@ -859,10 +860,6 @@ a:active img {
 	left:0;
 	margin-top: -39px;
 	opacity: 0.12;
-}
-.templates-item:hover::before,
-.templates-item:focus::before {
-	opacity: 1;
 }
 
 .catalog-page {
@@ -882,9 +879,14 @@ a:active img {
 	text-align: center;
 	opacity: 0;
 }
-.item-price:hover {
+.templates-item:hover .item-price,
+.templates-item:focus .item-price {
 	opacity: 1;
 }
+.templates-item:hover::before,
+.templates-item:focus::before {
+	opacity: 1;
+}S
 .item-title {
 	font-size: 18px;
 	line-height: 30px;
@@ -892,12 +894,15 @@ a:active img {
 	text-transform: uppercase;
 	color: #000000;
 }
-.item-title:hover {
+.item-title:hover,
+.item-title:focus {
 	color: #fb565a;
 }
 .item-title:active {
 	color: #b2b2b2;
+	opacity: 1;
 }
+
 .item-price p {
 	margin: 0;
 }
@@ -919,6 +924,12 @@ a:active img {
 	border: 2px solid transparent;
 	text-transform: uppercase;
 }
+.item-price .button:hover,
+.item-price .button:focus {
+	background-color: #e74246;
+}
+
+
 /*  Стили секции partners (начало) */
 .partners {
 	margin: 0;
